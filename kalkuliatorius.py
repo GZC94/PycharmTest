@@ -36,3 +36,9 @@ while True:
     elif meniu_pasirinkimas == "4":
         res = f"{sk1} / {sk2} = {sk1 / sk2}"
 
+
+    elif meniu_pasirinkimas == "5": # sekos nesaugosim operacijose
+        res = ""
+        for i in range(int(sk1), int(sk2 + 1)):
+            print(i, end=" ")
+        print()
