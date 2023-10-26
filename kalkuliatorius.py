@@ -43,8 +43,6 @@ while True:
             print(i, end=" ")
         print()
 
-    print(res)
-    operacijos.append(res)
 
     input("\nEnter - tęsti")
 
