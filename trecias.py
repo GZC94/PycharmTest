@@ -49,3 +49,16 @@ while True:
         print(f"Viso išleidote: {sum(i)}")
         print(f"Viso uždirbote: {sum(p)}")
         print(f"Uždarbio ir išlaidų skirtumas: {sum(i) - sum(p)}")
+    # mėnesio statistika
+    if ivestis == "6":
+        men_pa = []
+        men_is = []
+        menuo = input("Įveskite kokio mėnesio išlaidas ir pajamas norite sužinoti")
+        for el in pajamos:
+            if el[0] == menuo:
+                men_pa.append(el[2])
+        for el in islaidos:
+            if el[0] == menuo:
+                men_is.append(el[2])
+        print(f"Jūsų pasirinkto mėnesio išlaidos:{sum(men_is)}")
+        print(f"Jūsų pasirinkto mėnesio pajamos:{sum(men_pa)}")
