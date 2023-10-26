@@ -42,3 +42,12 @@ while True:
         for i in range(int(sk1), int(sk2 + 1)):
             print(i, end=" ")
         print()
+
+    print(res)
+    operacijos.append(res)
+
+    input("\nEnter - tęsti")
+
+print(f"Programoje buvo įvykdyta {len(operacijos)} operacijos.")
+for operacija in operacijos:
+    print(operacija)
