@@ -18,10 +18,8 @@ while True:
     if meniu_pasirinkimas == "q":
         break
 
-    if meniu_pasirinkimas not in ("1", "2", "3", "4", "5"):
-        print("Tokio pasirinkimo nėra")
-        continue
-        # naudojam float - skaičius su kableliu
+
+    # naudojam float - skaičius su kableliu
     sk1 = float(input("Įveskite pirmąjį skaičių "))
     sk2 = float(input("Įveskite antrąjį skaičių "))
 
